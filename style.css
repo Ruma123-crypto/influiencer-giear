@@ -31,7 +31,7 @@ main{
 .navbar{
     justify-content: space-between;
     align-items: center;
-    border: 2px solid tomato;
+    
    
   
 }
@@ -196,16 +196,21 @@ background: #ffffff;
 footer
 {
     height: 200px;
-   background-color: red; 
+   background-color: rgb(7, 2, 31); 
    display: flex;
    justify-content: center;
    align-items: center;
+   gap: 15px;
 }
 
 .fotter-style{
+    width: 1000px;
     color: white;
     text-align: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
    
 }
 .footer-title{
@@ -218,7 +223,8 @@ footer
 }
 
 .footer-icon{
-    gap: 50px;
+    display: flex;
+     gap: 15px;
 }
 @media screen and (max-width:576px) {
     .navbar,.nav-links,.banner,.features,.fotter-style{
@@ -229,12 +235,10 @@ footer
    
     .navbar{
         justify-content: start;
-        text-align: left;
-        border: 2px solid tomato;
+        align-items: start;
+        
     }
-    .fotter-style{
-        background-color: yellow;
-    }
+   
     .banner-img img{
         width: 200px;
     }
